@@ -2,7 +2,11 @@ const express=require('express')
 const app=express()
 
 app.get('/',(req,res)=>{
-    res.send('hello word')
+    res.send('Hello Word')
+})
+
+app.get('/oi', (req,res)=>{
+    res.send('Olá, Mundo!')
 })
 
 
