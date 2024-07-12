@@ -9,5 +9,9 @@ app.get('/oi', (req,res)=>{
     res.send('Olá, Mundo!')
 })
 
+app.get('/welcome', (req,res)=>{
+    res.send('Boas vindas ao curso!')
+})
+
 
 app.listen(3000)
